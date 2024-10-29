@@ -29,19 +29,35 @@
 		BB1501312CCE7198006AE33F /* PlantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB1501CE2CCE9527006AE33F /* Exceptions for "PlantsUITests" folder in "PlantsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PlantsTests/PlantsTests.swift,
+			);
+			target = BB1501262CCE7198006AE33F /* PlantsTests */;
+		};
+		BB1501CF2CCE9527006AE33F /* Exceptions for "PlantsUITests" folder in "PlantsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PlantsTests/PlantsTests.swift,
+			);
+			target = BB1501302CCE7198006AE33F /* PlantsUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BB1501192CCE7198006AE33F /* Plants */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Plants;
 			sourceTree = "<group>";
 		};
-		BB15012A2CCE7198006AE33F /* PlantsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlantsTests;
-			sourceTree = "<group>";
-		};
 		BB1501342CCE7198006AE33F /* PlantsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB1501CE2CCE9527006AE33F /* Exceptions for "PlantsUITests" folder in "PlantsTests" target */,
+				BB1501CF2CCE9527006AE33F /* Exceptions for "PlantsUITests" folder in "PlantsUITests" target */,
+			);
 			path = PlantsUITests;
 			sourceTree = "<group>";
 		};
@@ -76,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				BB1501192CCE7198006AE33F /* Plants */,
-				BB15012A2CCE7198006AE33F /* PlantsTests */,
 				BB1501342CCE7198006AE33F /* PlantsUITests */,
 				BB1501182CCE7198006AE33F /* Products */,
 			);
@@ -129,9 +144,6 @@
 			);
 			dependencies = (
 				BB1501292CCE7198006AE33F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BB15012A2CCE7198006AE33F /* PlantsTests */,
 			);
 			name = PlantsTests;
 			packageProductDependencies = (

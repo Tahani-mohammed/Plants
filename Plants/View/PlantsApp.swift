@@ -11,7 +11,8 @@ import SwiftUI
 struct PlantsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+             FirstPage { newReminder in
+                 }
+         }
     }
 }
