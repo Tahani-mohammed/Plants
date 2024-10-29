@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct Reminder: Identifiable , Equatable {
+    
+  let id = UUID()
+  var title: String
+    var room: String
+    var light: String
+    var wateringDays: String
+    var waterAmount: String
+    
+  var isCompleted = false
+}
