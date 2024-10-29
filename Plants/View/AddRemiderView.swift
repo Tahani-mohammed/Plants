@@ -17,7 +17,7 @@ struct AddReminderView: View {
 @State  var selectedLight = 0
 @State  var selectedWatering = 0
 @State  var selectedWater = 0
-    
+    //WOOOW THNI GOOOD WOOORK 
 var onCommit: (_ reminder: Reminder) -> Void
 var onDelete: (() -> Void)?
     
